@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Botskiz/Untangle#readme",
   "dependencies": {
     "bluebird": "^3.5.2",
+    "express": "^4.16.3",
     "sqlite3": "^4.0.2"
   }
 }
