@@ -4,7 +4,8 @@
   "description": "A simple network documentation tool.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "node ./build/main.js",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -21,12 +22,12 @@
   },
   "homepage": "https://github.com/Botskiz/Untangle#readme",
   "dependencies": {
-    "@types/express": "^4.16.0",
     "bluebird": "^3.5.2",
     "express": "^4.16.3",
     "sqlite3": "^4.0.2"
   },
   "devDependencies": {
+    "@types/express": "^4.16.0",
     "@types/node": "^10.11.7",
     "typescript": "^3.1.3"
   }
